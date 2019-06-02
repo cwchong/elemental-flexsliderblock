@@ -1,0 +1,7 @@
+---
+Name: elementalflexsliderblockconfig
+---
+DNADesign\Elemental\Controllers\ElementController:
+  default_styles:
+    - cwchong/elemental-flexsliderblock:client/dist/styles/flexslider.css
+    - cwchong/elemental-flexsliderblock:client/dist/styles/frontend.css

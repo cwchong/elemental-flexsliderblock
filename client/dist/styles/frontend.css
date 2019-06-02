@@ -1,0 +1,69 @@
+.animate-element__flexslider .home-section {
+    font-size: 0;
+}
+
+.animate-element__flexslider .home-section .pic {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.animate-element__flexslider .home-section .pic img {
+    width: 100%;
+    height: auto;
+}
+
+.animate-element__flexslider .home-section .text {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 50px 68px;
+    box-sizing: border-box;
+}
+
+.animate-element__flexslider .home-section .text>p:last-child {
+    margin-bottom: 0;
+}
+
+.animate-element__flexslider .lbl {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.animate-element__flexslider a.readmore {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.5em;
+    color: #000;
+}
+
+.animate-element__flexslider a.readmore:hover {
+    color: #6b6ba8;
+}
+
+.animate-element__flexslider .img-right .pic {
+    float: right;
+}
+
+.animate-element__flexslider .img-right .text {
+    float: left;
+}
+
+.animate-element__flexslider .reddot {
+    background: url(../img/icon-redot.png)no-repeat left center;
+    background-size: 9px 9px;
+    padding-left: 20px;
+}
+
+@media all and (max-width:900px) {
+
+    .animate-element__flexslider .home-section .text,
+    .animate-element__flexslider .home-section .pic {
+        width: 100%;
+    }
+
+    .animate-element__flexslider .home-section .text {
+        padding: 30px 30px 50px 30px;
+    }
+}
